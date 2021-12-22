@@ -1,0 +1,86 @@
+body{
+    background: #111111 url(fundo.png) no-repeat;
+    font: 16px arial, helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    }
+    /* principal ideia e cria conteiner padrao */
+    #principal{
+    border: 1px solid rgb(19, 20, 11);
+    /* comprimento da borada */
+    width: 900px;
+    /* altura da borda */
+    /* height: 500px; */
+    }
+    #menu{
+    background: #021013;
+    /* border: 1px solid red; */
+    /* padding aplica espaçamento inteno */
+    padding: 18px;
+    }
+    #conteudo{
+    background: #0ed829;
+    padding: 20px;
+    }
+    #rodape{
+    text-align: center;
+    }
+    .centralizar{
+    text-align: center;
+    /* text-align: left; */
+    /* text-align: right; */
+    }
+    .img-campanha{
+    /* colocar borda nas imagens */
+    border: 10px solid #000000;
+    }
+    h1{
+    color: #c9c913 ;
+    /* (em) serve para almentar as fonte em escala valor 
+    definido no body font: 16px */
+    font-size: 2.2em;
+    }
+    /* formatações nos links do site */
+    a{
+    color: #040111;
+    /* remove underline do link */
+    text-decoration: none;
+    font-weight: bold;
+    /* colocar bordar entre os link */
+    border: 1px solid rgb(15, 19, 1);
+    padding: 5px;
+    }
+
+    a:active{
+
+color: rgb(163, 16, 16);
+background-color: rgb(156, 158, 14);
+    }
+
+a:link{
+background-color: rgb(208, 230, 14);
+
+
+}
+
+a:hover{
+color: rgb(8, 1, 1);
+background-color: rgb(57, 156, 32);
+}
+
+div{
+margin: 20px;
+border-radius: 15px;
+background-color: rgb(191, 230, 15);
+padding: 15px;
+}
+
+a:visited{
+background-color:(217, 255, 0);
+
+
+
+}
+
+
+
+
